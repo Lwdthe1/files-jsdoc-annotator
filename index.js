@@ -1,3 +1,1 @@
-"use strict";
-
-module.exports = require("./lib/dataStore");
+module.exports = require("./lib/annotator");

@@ -1,30 +1,38 @@
 {
-  "name": "array-datastore",
-  "version": "1.2.0",
-  "description": "A datastore to store unique objects in an array.",
+  "name": "files-jsdoc-annotator",
+  "version": "0.1.0",
+  "description": "A tool to parse annotations of JS files using their JsDoc.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lwdthe1/array-datastore.git"
+    "url": "git+https://github.com/Lwdthe1/files-jsdoc-annotator.git"
   },
   "keywords": [
-    "array datastore",
-    "array",
-    "datastore",
-    "data store"
+    "jsdoc",
+    "annotations",
+    "annotator",
+    "nodejs",
+    "expressjs",
+    "documentation",
+    "automation",
+    "code generator",
+    "generator"
   ],
   "author": "Lincoln W Daniel <lwdthe1@gmail.com> (http://lincolnwdaniel.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Lwdthe1/array-datastore/issues"
+    "url": "https://github.com/Lwdthe1/files-jsdoc-annotator/issues"
   },
-  "homepage": "https://github.com/Lwdthe1/array-datastore#readme",
+  "homepage": "https://github.com/Lwdthe1/files-jsdoc-annotator#readme",
   "scripts": {
     "test": "NODE_ENV=test mocha --recursive -t 3600000 --exit",
     "format": "prettier **/**/*.{ts,js} --write --config .prettierrc"
   },
   "dependencies": {
-    "sectioned-list": "^1.1.0"
+    "js-beautify": "^1.10.2",
+    "jsdoc-api": "^5.0.4",
+    "map-files": "^0.8.2",
+    "string-hash": "^1.1.3"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
