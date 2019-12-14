@@ -479,9 +479,7 @@ describe("#genAll()", function() {
               }
             }
           }
-        },
-        fileRootPath:
-          "/Users/lincolndaniel/Documents/programming/files-jsdoc-annotator/examples/genAll/server/api/ArticleApiController.js"
+        }
       }
     );
 
@@ -604,9 +602,7 @@ describe("#genAll()", function() {
               }
             }
           }
-        },
-        fileRootPath:
-          "/Users/lincolndaniel/Documents/programming/files-jsdoc-annotator/examples/genAll/server/api/DiscussionApiController.js"
+        }
       }
     );
   });

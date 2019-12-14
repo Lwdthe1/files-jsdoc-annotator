@@ -1,6 +1,6 @@
 {
   "name": "files-jsdoc-annotator",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A tool to parse annotations of JS files using their JsDoc.",
   "main": "index.js",
   "repository": {
